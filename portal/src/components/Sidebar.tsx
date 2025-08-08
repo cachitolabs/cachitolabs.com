@@ -40,7 +40,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
     >
       {/* Sidebar Header */}
       <div className="flex items-center justify-between p-4 border-b border-gray-600">
-        <h2 className="text-xl font-bold text-white">Menu</h2>
+        <h2 className="text-xl font-bold text-white">cachito labs</h2>
         <button
           onClick={onClose}
           className="p-2 hover:bg-gray-700 rounded transition-colors text-white"
@@ -55,7 +55,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
         <ul className="space-y-4">
           <li>
             <a 
-              href="#" 
+              href="#/" 
               className="block py-3 px-4 text-lg text-white hover:bg-gray-700 rounded transition-colors"
               onClick={onClose}
             >
@@ -64,7 +64,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
           </li>
           <li>
             <a 
-              href="#" 
+              href="#/guides" 
               className="block py-3 px-4 text-lg text-white hover:bg-gray-700 rounded transition-colors"
               onClick={onClose}
             >
@@ -73,7 +73,7 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
           </li>
           <li>
             <a 
-              href="#" 
+              href="#/buymeacoffee" 
               className="block py-3 px-4 text-lg text-white hover:bg-gray-700 rounded transition-colors"
               onClick={onClose}
             >
