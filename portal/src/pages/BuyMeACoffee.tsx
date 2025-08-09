@@ -6,7 +6,7 @@ function BuyMeACoffee() {
         {/* Welcome Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-white mb-6">
-            Buy Me A Coffee
+            Buy Me a Coffee
           </h1>
           <p className="text-lg text-white leading-relaxed max-w-3xl mx-auto">
             Any contributions made will help support the equipment, tools, content and ongoing experiments, your support is truly appreciated :)

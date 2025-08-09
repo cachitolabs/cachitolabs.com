@@ -28,7 +28,7 @@ function Home() {
                 href="https://www.youtube.com/@cachitolabs" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block border-2 border-white text-white px-8 py-3 text-lg font-medium hover:bg-white hover:text-black transition-colors duration-300 text-center no-underline"
+                className="inline-block border border-gray-600 hover:bg-white hover:text-black hover:border-white text-white font-bold py-3 px-6 rounded-lg transition-colors text-center"
                 style={{ textDecoration: 'none' }}
               >
                 Learn more
@@ -91,7 +91,7 @@ function Home() {
 
             <Link 
               to="/guides" 
-              className="inline-block border-2 border-white text-white px-8 py-3 text-lg font-medium hover:bg-white hover:text-black transition-colors duration-300 text-center no-underline"
+              className="inline-block border border-gray-600 hover:bg-white hover:text-black hover:border-white text-white font-bold py-3 px-6 rounded-lg transition-colors text-center"
               style={{ textDecoration: 'none' }}
             >
               More guides
