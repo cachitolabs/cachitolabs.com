@@ -73,6 +73,15 @@ export default function Sidebar({ isOpen, onClose }: SidebarProps) {
           </li>
           <li>
             <a 
+              href="#/recommendations" 
+              className="block py-3 px-4 text-lg text-white hover:bg-gray-700 rounded transition-colors"
+              onClick={onClose}
+            >
+              Recommended Tech
+            </a>
+          </li>
+          <li>
+            <a 
               href="#/buymeacoffee" 
               className="block py-3 px-4 text-lg text-white hover:bg-gray-700 rounded transition-colors"
               onClick={onClose}

@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import BuyMeACoffee from './pages/BuyMeACoffee';
 import Guides from './pages/Guides';
 import GuidePage from './pages/GuidePage';
+import Recommendations from './pages/Recommendations';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Header><Home /></Header>} />
           <Route path="/guides" element={<Header><Guides /></Header>} />
           <Route path="/guides/:guideId" element={<Header><GuidePage /></Header>} />
+          <Route path="/recommendations" element={<Header><Recommendations /></Header>} />
           <Route path="/buymeacoffee" element={<Header><BuyMeACoffee /></Header>} />
         </Routes>
       <Footer />
