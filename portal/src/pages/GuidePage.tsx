@@ -1,4 +1,3 @@
-// pages/GuidePage.tsx
 import { useParams } from 'react-router-dom';
 import Guide from '../components/Guide';
 import { guideRegistry } from '../data/guideRegistry';

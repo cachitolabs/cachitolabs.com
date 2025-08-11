@@ -1,6 +1,3 @@
-// Guide.tsx
-import React from 'react';
-
 interface GuideProps {
   guideId?: string;
   title?: string;

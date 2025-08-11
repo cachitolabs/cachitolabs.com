@@ -1,6 +1,6 @@
 // data/guideRegistry.ts
-import { guide1Data } from '../guides/guide-1';
-import { guide2Data } from '../guides/guide-2';
+import { guide1Data } from './guides/guide-1';
+import { guide2Data } from './guides/guide-2';
 
 export const guideRegistry: Record<string, any> = {
   "guide-1": guide1Data,
