@@ -51,7 +51,9 @@ export default function Header({ children }: HeaderProps) {
             <div className="flex items-center space-x-4">
               {/* Instagram */}
               <a 
-                href="#" 
+                href="https://www.instagram.com/cachitolabs/" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 hover:bg-gray-800 rounded transition-colors"
                 aria-label="Instagram"
               >
@@ -59,7 +61,9 @@ export default function Header({ children }: HeaderProps) {
               </a>
               {/* TikTok */}
               <a 
-                href="#" 
+                href="https://www.tiktok.com/@cachitolabs" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 hover:bg-gray-800 rounded transition-colors"
                 aria-label="TikTok"
               >
@@ -69,7 +73,9 @@ export default function Header({ children }: HeaderProps) {
               </a>
               {/* YouTube */}
               <a 
-                href="#" 
+                href="https://www.youtube.com/@cachitolabs" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 hover:bg-gray-800 rounded transition-colors"
                 aria-label="YouTube"
               >
@@ -77,7 +83,9 @@ export default function Header({ children }: HeaderProps) {
               </a>
               {/* GitHub */}
               <a 
-                href="#" 
+                href="https://github.com/cachitolabs" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 hover:bg-gray-800 rounded transition-colors"
                 aria-label="GitHub"
               >
