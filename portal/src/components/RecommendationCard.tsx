@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 interface RecommendationCardProps {
   href: string;
   imageSrc: string;
@@ -9,7 +7,12 @@ interface RecommendationCardProps {
 export default function RecommendationCard({ href, imageSrc, title }: RecommendationCardProps) {
   return (
     <div className="bg-gray-900 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 cursor-pointer">
-      <Link to={href} className="block">
+      <a 
+        href={href} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        className="block"
+      >
         <div className="aspect-video bg-gradient-to-r from-red-500 to-purple-600 flex items-center justify-center">
           <img 
             src={imageSrc} 
@@ -22,7 +25,7 @@ export default function RecommendationCard({ href, imageSrc, title }: Recommenda
             {title}
           </h3>
         </div>
-      </Link>
+      </a>
     </div>
   );
 }

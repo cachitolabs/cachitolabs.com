@@ -5,7 +5,7 @@ export default function Footer() {
     <footer 
       className="text-white py-8 mt-auto"
       style={{
-        backgroundImage: "url('/cachitolabs_website_footer.png')",
+        backgroundImage: "url('/website/cachitolabs_website_footer.png')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'

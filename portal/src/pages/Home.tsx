@@ -71,19 +71,19 @@ function Home() {
               
               <GuideCard 
                 href="/guides/guide-1"
-                imageSrc="/cachitolabs_website_footer.png"
+                imageSrc="/website/cachitolabs_website_footer.png"
                 title="Guide 1"
               />
 
               <GuideCard 
                 href="/guides/guide-2"
-                imageSrc="/cachitolabs_website_footer.png"
+                imageSrc="/website/cachitolabs_website_footer.png"
                 title="Guide 2"
               />
 
               <GuideCard 
                 href="/guides/guide-3"
-                imageSrc="/cachitolabs_website_footer.png"
+                imageSrc="/website/cachitolabs_website_footer.png"
                 title="Guide 3"
               />
 
