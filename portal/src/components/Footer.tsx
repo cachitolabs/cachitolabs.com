@@ -1,11 +1,12 @@
 import { Instagram, Youtube, Github, Mail } from 'lucide-react';
+import footer from '../assets/website/cachitolabs_website_footer.png'
 
 export default function Footer() {
   return (
     <footer 
       className="text-white py-8 mt-auto"
       style={{
-        backgroundImage: "url('/website/cachitolabs_website_footer.png')",
+        backgroundImage: `url(${footer})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat'

@@ -1,4 +1,16 @@
 import RecommendationCard from '../components/RecommendationCard';
+import product1 from '../assets/recommendations/arcticliquidfreezer.jpg'
+import product2 from '../assets/recommendations/amdryzen97950x.jpg'
+import product3 from '../assets/recommendations/asusproartx870e.jpg'
+import product4 from '../assets/recommendations/gskilltridentz5ram.jpg'
+import product5 from '../assets/recommendations/nzxth7flow2024.jpg'
+import product6 from '../assets/recommendations/wdblack2tbnvme.jpg'
+import product7 from '../assets/recommendations/corsairrm1000x.jpg'
+import product8 from '../assets/recommendations/ergotronarm.jpg'
+import product9 from '../assets/recommendations/amazonbasicscat7ethernet.jpg'
+import product10 from '../assets/recommendations/wattpowermeterplug.jpg'
+import product11 from '../assets/recommendations/arcticp12pwm120mmfans3pack.jpg'
+import product12 from '../assets/recommendations/arcticp12pwm120mmfans1pack.jpg'
 
 function Recommendations() {
   return (
@@ -24,62 +36,62 @@ function Recommendations() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <RecommendationCard 
                 href="https://amzn.to/45bPOwf"
-                imageSrc="/recommendations/arcticliquidfreezer.jpg"
+                imageSrc={product1}
                 title="ARCTIC Liquid Freezer III Pro 360 A-RGB"
               />
               <RecommendationCard 
                 href="https://amzn.to/46Ryf5Z"
-                imageSrc="/recommendations/amdryzen97950x.jpg"
+                imageSrc={product2}
                 title="AMD Ryzen 9 7950X "
               />
               <RecommendationCard
                 href="https://amzn.to/46TVvQQ"
-                imageSrc="/recommendations/asusproartx870e.jpg"
+                imageSrc={product3}
                 title="ASUS ProArt X870E-CREATOR WiFi AMD AM5 X870E ATX Motherboard"
               />
               <RecommendationCard
                 href="https://amzn.to/4mw1QWU"
-                imageSrc="/recommendations/gskilltridentz5ram.jpg"
+                imageSrc={product4}
                 title="G.SKILL Trident Z5 RGB Series (Intel XMP 3.0 & AMD Expo) DDR5 RAM 64GB"
               />
               <RecommendationCard
                 href="https://amzn.to/4fRbWjn"
-                imageSrc="/recommendations/nzxth7flow2024.jpg"
+                imageSrc={product5}
                 title="NZXT H7 Flow 2024 - Mid-Tower ATX Airflow Case"
               />
               <RecommendationCard
                 href="https://amzn.to/41zaMTr"
-                imageSrc="/recommendations/wdblack2tbnvme.jpg"
+                imageSrc={product6}
                 title="WD_BLACK 2TB SN850X NVMe Internal Gaming SSD Solid State Drive"
               />
               <RecommendationCard
                 href="https://amzn.to/4ossoud"
-                imageSrc="/recommendations/corsairrm1000x.jpg"
+                imageSrc={product7}
                 title="CORSAIR RM1000x Fully Modular Low-Noise ATX Power Supply"
               />
               <RecommendationCard
                 href="https://amzn.to/4ltiV35"
-                imageSrc="/recommendations/ergotronarm.jpg"
+                imageSrc={product8}
                 title="Ergotron – HX HD Premium Heavy Duty Gaming Monitor Arm"
               />
               <RecommendationCard
                 href="https://amzn.to/45voJTy"
-                imageSrc="/recommendations/amazonbasicscat7ethernet.jpg"
+                imageSrc={product9}
                 title="Amazon Basics RJ45 Cat 7 Ethernet Patch Cable"
               />
               <RecommendationCard
                 href="https://amzn.to/4mcKz5F"
-                imageSrc="/recommendations/wattpowermeterplug.jpg"
+                imageSrc={product10}
                 title="Upgraded Watt Power Meter Plug"
               />
               <RecommendationCard
                 href="https://amzn.to/4md3eOI"
-                imageSrc="/recommendations/arcticp12pwm120mmfans3pack.jpg"
+                imageSrc={product11}
                 title="ARCTIC P12 PWM PST A-RGB (3 Pack) - PC Fans, 120mm PWM Case"
               />
               <RecommendationCard
                 href="https://amzn.to/4ovKThl"
-                imageSrc="/recommendations/arcticp12pwm120mmfans1pack.jpg"
+                imageSrc={product12}
                 title="ARCTIC P12 PWM PST A-RGB - PC Fan, 120mm PWM Case"
               />
 

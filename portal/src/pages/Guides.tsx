@@ -1,4 +1,5 @@
 import GuideCard from '../components/GuideCard';
+import footer from '../assets/website/cachitolabs_website_footer.png'
 
 function Guides() {
   return (
@@ -24,25 +25,25 @@ function Guides() {
               
               <GuideCard 
                 href="/guides/guide-1"
-                imageSrc="/website/cachitolabs_website_footer.png"
+                imageSrc={footer}
                 title="Guide 1"
               />
 
               <GuideCard 
                 href="/guides/guide-2"
-                imageSrc="/website/cachitolabs_website_footer.png"
+                imageSrc={footer}
                 title="Guide 2"
               />
 
               <GuideCard 
                 href="/guides/guide-3"
-                imageSrc="/website/cachitolabs_website_footer.png"
+                imageSrc={footer}
                 title="Guide 3"
               />
 
               <GuideCard 
                 href="/guides/guide-4"
-                imageSrc="/website/cachitolabs_website_footer.png"
+                imageSrc={footer}
                 title="Guide 4"
               />
 

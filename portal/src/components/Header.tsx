@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Menu, Instagram, Youtube, Github } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Sidebar from './Sidebar';
+import banner from '../assets/website/cachitolabs_website_banner.png'
 
 interface HeaderProps {
   children?: React.ReactNode;
@@ -93,7 +94,7 @@ export default function Header({ children }: HeaderProps) {
             style={{ width: '100%' }}
           >
             <img 
-              src="/website/cachitolabs_website_banner.png" 
+              src={banner} 
               alt="Cachito Labs - Click to go home"
               className="max-w-none"
               style={{
