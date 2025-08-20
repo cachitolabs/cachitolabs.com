@@ -1,16 +1,16 @@
-import RecommendationCard from '../components/RecommendationCard';
-import product1 from '../assets/recommendations/arcticliquidfreezer.jpg'
-import product2 from '../assets/recommendations/amdryzen97950x.jpg'
-import product3 from '../assets/recommendations/asusproartx870e.jpg'
-import product4 from '../assets/recommendations/gskilltridentz5ram.jpg'
-import product5 from '../assets/recommendations/nzxth7flow2024.jpg'
-import product6 from '../assets/recommendations/wdblack2tbnvme.jpg'
-import product7 from '../assets/recommendations/corsairrm1000x.jpg'
-import product8 from '../assets/recommendations/ergotronarm.jpg'
-import product9 from '../assets/recommendations/amazonbasicscat7ethernet.jpg'
-import product10 from '../assets/recommendations/wattpowermeterplug.jpg'
-import product11 from '../assets/recommendations/arcticp12pwm120mmfans3pack.jpg'
-import product12 from '../assets/recommendations/arcticp12pwm120mmfans1pack.jpg'
+// import RecommendationCard from '../components/RecommendationCard';
+// import product1 from '../assets/recommendations/arcticliquidfreezer.jpg'
+// import product2 from '../assets/recommendations/amdryzen97950x.jpg'
+// import product3 from '../assets/recommendations/asusproartx870e.jpg'
+// import product4 from '../assets/recommendations/gskilltridentz5ram.jpg'
+// import product5 from '../assets/recommendations/nzxth7flow2024.jpg'
+// import product6 from '../assets/recommendations/wdblack2tbnvme.jpg'
+// import product7 from '../assets/recommendations/corsairrm1000x.jpg'
+// import product8 from '../assets/recommendations/ergotronarm.jpg'
+// import product9 from '../assets/recommendations/amazonbasicscat7ethernet.jpg'
+// import product10 from '../assets/recommendations/wattpowermeterplug.jpg'
+// import product11 from '../assets/recommendations/arcticp12pwm120mmfans3pack.jpg'
+// import product12 from '../assets/recommendations/arcticp12pwm120mmfans1pack.jpg'
 
 function Recommendations() {
   return (
