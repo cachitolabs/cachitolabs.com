@@ -32,8 +32,8 @@ function Recommendations() {
             </div>
             
             {/* Amazon Cards Grid */}
-            <h2 className="text-3xl font-bold text-white">Amazon</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <h2 className="text-3xl font-bold text-white mb-118">Coming Soon!</h2>
+            {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               <RecommendationCard 
                 href="https://amzn.to/45bPOwf"
                 imageSrc={product1}
@@ -95,7 +95,7 @@ function Recommendations() {
                 title="ARCTIC P12 PWM PST A-RGB - PC Fan, 120mm PWM Case"
               />
 
-            </div>
+            </div> */}
 
           </div>
         </section>
